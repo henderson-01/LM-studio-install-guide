@@ -159,6 +159,12 @@ Restart your system to apply group changes.
 
 ---
 
+## 🔧 MCP Server Configuration
+
+* See my other guilde `LM Studio MCP Server Configuration.md`
+
+---
+
 ## ⚠️ Disclaimer
 
 > [!CAUTION]
