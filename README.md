@@ -81,7 +81,7 @@ chmod +x LM-Studio-*.AppImage
 
 ## 🛠 Known Issues & Fixes
 
-### Ubuntu: App Icon Missing in GNOME Grid/Launcher
+### Ubuntu: `App Icon Missing in GNOME Grid/Launcher`
 
 **The Issue:** When installing LM Studio via the `.deb` package on Ubuntu (versions like 24.04 or 26.04), the application shows up with a generic gear/blank icon instead of the official LM Studio logo.
 
@@ -98,7 +98,9 @@ sudo gtk-update-icon-cache -f /usr/share/icons/hicolor/
 > [!TIP]
 > Alternatively, you can copy it to `/usr/share/pixmaps/lm-studio.png`. Once done, restart LM Studio or your GNOME session, and the logo will appear.
 
-### Linux: AppImage Will Not Launch (FUSE Error)
+---
+
+### Linux: `AppImage Will Not Launch (FUSE Error)`
 
 **The Issue:** Running the `.AppImage` fails immediately with an error regarding `FUSE` or `dlopen`.
 
@@ -114,7 +116,9 @@ sudo apt install libfuse2
 
 After installation, try running the AppImage again. No reboot is required.
 
-### Windows/Linux: GPU Not Detected (CPU-Only Inference)
+---
+
+### Windows/Linux: `GPU Not Detected (CPU-Only Inference)`
 
 **The Issue:** Models run incredibly slowly (under 2 tokens per second), and the GPU layers slider shows 0 VRAM.
 
@@ -135,7 +139,9 @@ Restart your system to apply group changes.
 > [!NOTE]
 > If AMD drivers recently updated on Windows and broke LM Studio, deleting the `~/.lmstudio/backend` folder temporarily resolves the detection loop without needing a clean driver install.
 
-### Local Server Port Conflict
+---
+
+### Local Server: `Port Conflict`
 
 **The Issue:** Clicking "Start Server" fails, or the server status stays red.
 
@@ -146,7 +152,9 @@ Restart your system to apply group changes.
 * **Windows:** `netstat -ano | findstr :1234`
 * **Mac/Linux:** `lsof -i :1234`
 
-### Model Fails to Load or Outputs Gibberish
+---
+
+### Models: `Fails to Load or Outputs Gibberish`
 
 **The Issue:** A downloaded model fails to initialize with a generic exit code, or the output is completely broken/unreadable.
 
