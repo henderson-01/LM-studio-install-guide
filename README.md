@@ -1,3 +1,5 @@
+*Notice: This repository is no longer actively maintained and may contain outdated information.*
+
 # LM Studio: Installation & Troubleshooting Guide
 
 This README serves as a comprehensive guide for installing **LM Studio** across macOS, Ubuntu Linux, and Windows. It also documents common known errors and their direct fixes, ensuring your local LLM environment runs as smoothly as possible.
